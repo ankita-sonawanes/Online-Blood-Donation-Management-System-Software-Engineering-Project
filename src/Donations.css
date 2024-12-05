@@ -1,0 +1,26 @@
+/* src/Donations.css */
+.donations-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .donations-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .donations-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .donations-table th, .donations-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .donations-table th {
+    background-color: #f2f2f2;
+  }
+  

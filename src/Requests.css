@@ -1,0 +1,425 @@
+/*Requests.css*/
+/* Styles for the request form */
+.requests {
+    width: 75%;
+    background-color: blue;
+    padding: 1px 15px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding-left: 50px;
+    padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.requests h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.requests form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+    height: 700px; /* Increased height for uniformity */
+}
+
+.requests label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.requests input, .requests select {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.donor-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.donor-table th, .donor-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.donor-table th {
+    background-color: #f4f4f4;
+}
+
+.approve-button, .reject-button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.approve-button {
+    background-color: #007BFF;
+    color: white;
+    padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.reject-button {
+    background-color: red;
+    color: white;
+    padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+/* Updated styles for Requests section */
+.requests-list h2 {
+    text-align: center; /* Center the heading */
+    color: darkgreen;   /* Set color to dark green */
+    font-size: 24px;    /* Adjust font size */
+    margin-bottom: 20px;
+}
+.requests-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    padding: 20px; /* Add some padding around the container */
+  }
+  
+  .request-form {
+    width: 100%; /* Full width for the form */
+    max-width: 600px; /* Limit maximum width */
+    background-color: #f9f9f9; /* Optional: add a background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+    padding-left: 50px;
+  padding-bottom: 50px;
+  }
+  
+  .requests h1 {
+    text-align: center; /* Center the title */
+  }
+  
+  table {
+    width: 100%; /* Make the table full width */
+    margin-top: 20px; /* Space above the table */
+    border-collapse: collapse; /* Collapse table borders */
+  }
+  
+  table th, table td {
+    padding: 10px; /* Add padding for table cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .search-bar {
+    margin-top: 20px; /* Space above search bar */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the search bar */
+  }
+  
+  .search-bar input {
+    padding: 10px; /* Add padding for input */
+    margin-right: 10px; /* Space between input and button */
+  }
+  
+  button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  button:hover {
+    opacity: 0.9; /* Slightly fade buttons on hover */
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height */
+  }
+  
+  .form-wrapper {
+    background-color: #f7f7f7; /* Light background color */
+    padding: 30px; /* Padding around the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%;
+    max-width: 600px; /* Max width to make it responsive */
+    padding-left: 50px;
+  padding-bottom: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%; /* Make the table take the full width */
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Center the container on the screen */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Optional: light background color */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+/* Style the form wrapper */
+.form-wrapper {
+  background-color: #ffffff; /* White background for the form */
+  padding: 30px; /* Padding around the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  width: 80%; /* Set width of the form */
+  max-width: 600px; /* Set maximum width for responsiveness */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+/* Center the form heading */
+h1 {
+  text-align: center;
+}
+
+/* Style the table to occupy full width */
+table {
+  width: 100%;
+}
+
+/* Style for buttons */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+/* Center the container on the screen */
+.container {
+  display: flex;
+  justify-content: center; /* Horizontally center the form */
+  align-items: center;     /* Vertically center the form */
+  min-height: 100vh;       /* Full viewport height */
+  background-color: #f0f0f0; /* Optional: light background color */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+/* Style the form wrapper */
+.form-wrapper {
+  background-color: #ffffff; /* White background for the form */
+  padding: 30px;             /* Padding around the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  border-radius: 10px;       /* Rounded corners */
+  width: 90%;                /* Set width of the form */
+  max-width: 600px;          /* Set maximum width for responsiveness */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+/* Center the form heading */
+h1 {
+  text-align: center;
+}
+
+/* Style the table to occupy full width */
+table {
+  width: 100%;
+}
+
+/* Style for buttons */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Optional: Style for error and success messages */
+.error {
+  color: red;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+  /* Requests.css */
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f8f8; /* Light background color */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.form-wrapper {
+  background-color: white; /* White background for form */
+  padding: 20px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 400px; /* Fixed width for the form */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Darker text color */
+}
+
+table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+td {
+  padding: 10px; /* Padding around table cells */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for input fields */
+  box-sizing: border-box; /* Include padding in width calculation */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+button {
+  background-color: #4CAF50; /* Green background for submit button */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 0 5px; /* Margin between buttons */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+button[type="button"] {
+  background-color: #f44336; /* Red background for reset button */
+}
+
+button:hover {
+  opacity: 0.9; /* Slightly transparent on hover */
+}
+
+.error {
+  color: red; /* Red text for error messages */
+  text-align: center; /* Centered error message */
+}
+
+.success {
+  color: green; /* Green text for success messages */
+  text-align: center; /* Centered success message */
+}
+/* Requests.css */
+
+html, body {
+  margin: 0; /* Remove default margins */
+  height: 100%; /* Full height */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f8f8; /* Light background color */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.form-wrapper {
+  background-color: white; /* White background for form */
+  padding: 20px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 400px; /* Fixed width for the form */
+  max-width: 90%; /* Responsive width */
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  color: black; /* Darker text color */
+}
+
+table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+td {
+  padding: 10px; /* Padding around table cells */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for input fields */
+  box-sizing: border-box; /* Include padding in width calculation */
+  
+}
+
+button {
+  background-color: #4CAF50; /* Green background for submit button */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 0 5px; /* Margin between buttons */
+}
+
+button[type="button"] {
+  background-color: #f44336; /* Red background for reset button */
+}
+
+button:hover {
+  opacity: 0.9; /* Slightly transparent on hover */
+}
+
+.error {
+  color: red; /* Red text for error messages */
+  text-align: center; /* Centered error message */
+}
+
+.success {
+  color: green; /* Green text for success messages */
+  text-align: center; /* Centered success message */
+}
+

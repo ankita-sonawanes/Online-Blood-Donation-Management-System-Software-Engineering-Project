@@ -1,0 +1,189 @@
+/*Donors.css*/
+.donors {
+  width: 75%;
+  background-color: blue;
+  padding: 1px 15px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.donors h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.donors form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 200px;
+  height: 700px; /* Increased height */
+}
+
+.donors label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.donors input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.donor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.donor-table th, .donor-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.donor-table th {
+  background-color: #f4f4f4;
+}
+
+.approve-button, .reject-button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.approve-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+.reject-button {
+  background-color: red;
+  color: white;
+}
+
+/* Updated styles for Registered Donors section */
+.donors-list h2 {
+  text-align: center; /* Center the heading */
+  color: darkgreen;   /* Set color to dark green */
+  font-size: 24px;    /* Adjust font size */
+  margin-bottom: 20px;
+}
+
+/* Add this CSS in your Donors.css file or within a style tag */
+.table-row:nth-child(even) {
+  background-color: #f9f9f9; /* Faint color for even rows */
+}
+
+.table-row:nth-child(odd) {
+  background-color: #f2f2f2; /* Faint color for odd rows */
+}
+
+.table-cell {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.donors-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.donors-table th, .donors-table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increased padding for more space */
+}
+
+.donors-table th {
+  background-color: #f2f2f2; /* Light gray background for headers */
+  text-align: left;
+}
+
+.donors-table td {
+  min-width: 150px; /* Set minimum width for all cells */
+}
+
+/* Specific column width settings */
+.donors-table th:nth-child(1), .donors-table td:nth-child(1) { /* Name column */
+  min-width: 200px;
+}
+
+.donors-table th:nth-child(2), .donors-table td:nth-child(2) { /* Age column */
+  min-width: 100px;
+}
+
+.donors-table th:nth-child(3), .donors-table td:nth-child(3) { /* Gender column */
+  min-width: 100px;
+}
+
+.donors-table th:nth-child(4), .donors-table td:nth-child(4) { /* Blood Type column */
+  min-width: 100px;
+}
+
+.donors-table th:nth-child(5), .donors-table td:nth-child(5) { /* Contact Information column */
+  min-width: 200px;
+}
+
+.donors-table th:nth-child(6), .donors-table td:nth-child(6) { /* Actions column */
+  min-width: 150px;
+}
+.donors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  margin: 20px; /* Add some margin */
+}
+
+.form-title {
+  margin-bottom: 20px; /* Space below the title */
+  text-align: center; /* Center the title text */
+}
+
+.container {
+  width: 100%; /* Use full width */
+  max-width: 600px; /* Limit the width for better appearance */
+  padding: 20px;
+  border: 1px solid #ccc; /* Optional border for form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add some shadow */
+  background-color: #fff; /* White background for the form */
+}
+.donor-registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 600px; /* Adjust as necessary */
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}

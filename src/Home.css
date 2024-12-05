@@ -1,0 +1,55 @@
+/* src/Home.css */
+
+.home {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    color:red;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  
+  }
+  
+  .home p {
+    font-size: 18px;
+    color:rgb(250, 6, 87);
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 5px;
+
+  }
+  
+  .home button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home button:hover {
+    background-color: #0056b3;
+  }
+  .home {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Aligns content to the top */
+  height: 80vh; /* Full viewport height */
+  background-image: url('C:\Users\Admin\Desktop\blooddonation\frontend\my-app\public\blood.png'); /* Background image from public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px; /* Adds some space from the top */
+  text-align: center;
+  color: white; /* Text color for visibility */
+
+  }

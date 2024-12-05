@@ -1,0 +1,48 @@
+/* src/AllDonation.css */
+.all-donations {
+    padding: 20px;
+  }
+  
+  .all-donations h2 {
+    text-align: center;
+    color: green;
+  }
+  
+  .donors-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .donors-table th, .donors-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .donors-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  .all-donors-container {
+    padding: 20px;
+  }
+  
+  .donors-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .donors-table th, .donors-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .donors-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .donors-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
